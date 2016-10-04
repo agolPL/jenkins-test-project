@@ -5,9 +5,11 @@
 *.iws
 *.uml
 
-
 # Gradle #
 .gradle
+
+# Maven #
+target
 
 # Generated #
 out
