@@ -1,0 +1,28 @@
+buildscript {
+    dependencies {
+        classpath('org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE')
+    }
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+}
+
+apply plugin: 'spring-boot'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+group 'pl.agol.jenkins'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+}

@@ -1,0 +1,21 @@
+# Idea #
+.idea
+*.iml
+*.ipr
+*.iws
+*.uml
+
+
+# Gradle #
+.gradle
+
+# Generated #
+out
+build
+classes
+
+# Pid #
+*.pid
+
+# log #
+log
